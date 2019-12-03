@@ -8,6 +8,7 @@ The source codes of the django project is located in ./web/src/hacker_news path.
 
 Fetching mechanism is implemented in the module updater/tasks.py
 End-point /posts/ is implemented in the module updater/views.py
+All configs for fetching are located in the end of the module settings.py
 
 All significant parts of the code are provided by comments.
 

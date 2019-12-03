@@ -11,4 +11,4 @@ End-point /posts/ is implemented in the module updater/views.py
 
 All significant parts of the code are provided by comments.
 
-P.S.: Docker containers postgres, web, redis works on special internal network in case of enhancement of the security of system. These containers has static ip-addresses for implementing unit test.  There is variable hn_postgres_ipv4_address in the configuration module settings.py. The value of this variable must be equal to ip address of the postgres service in the docker-compose.yml.
+P.S.: Docker containers postgres, web, redis works on special internal network in case of enhancement of the security of system. These containers have static ip-addresses for implementing unit test.  There is variable hn_postgres_ipv4_address in the configuration module settings.py. The value of this variable must be equal to ip address of the postgres service in the docker-compose.yml.

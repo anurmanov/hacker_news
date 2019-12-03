@@ -12,4 +12,6 @@ All configs for fetching are located in the end of the module settings.py
 
 All significant parts of the code are provided by comments.
 
+After starting service hacker_news docker containers hn_redis, hn_wsgi, hn_postgres, hn_nginx are created. Service automatically periodically fetches news from url. 
+
 P.S.: Docker containers postgres, web, redis works on special internal network in case of enhancement of the security of system. These containers have static ip-addresses for implementing unit test.  There is variable hn_postgres_ipv4_address in the configuration module settings.py. The value of this variable must be equal to ip address of the postgres service in the docker-compose.yml.

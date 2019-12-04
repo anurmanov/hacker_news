@@ -16,4 +16,4 @@ After starting service hacker_news docker containers hn_redis, hn_wsgi, hn_postg
 
 P.S.: Docker containers postgres, web, redis works on special internal network in case of enhancement of the security of system. These containers have static ip-addresses for implementing unit test.  There is variable hn_postgres_ipv4_address in the configuration module settings.py. The value of this variable must be equal to ip address of the postgres service in the docker-compose.yml.
 
-P.S.2: File requirements.txt is located in ./web path and all python module are being installed in hn_wsgi container.
+P.S.2: File requirements.txt is located in ./web path and all python module are being installed in hn_wsgi container. So there is no need to be installed python virtual environment.

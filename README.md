@@ -1,6 +1,6 @@
 # hacker_news
 
-Service for scrappying news from https://news.ycombinator.com/news. The service has end-point /posts/ for represent news in json format. The service is implemented via Django framework, using Django Rest Framework and deployed via Docker Compose (tested on Docker CE for Fedora).
+Service for scraping news from https://news.ycombinator.com/news. The service has endpoint /posts/ for representing news in json format. The service is implemented via Django Rest Framework and deployed via Docker Compose (tested on Docker CE for Fedora).
 
 Service can be installed via Linux Systemd subsystem. File setup.sh has bash script .
 
